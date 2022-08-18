@@ -554,6 +554,14 @@ textarea {
 
 @media only screen and (max-width: 572px) {
     
+     .nav-horizontal {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+    
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -564,9 +572,9 @@ textarea {
     }
     
     
-    .nav-menu {
+/*     .nav-menu {
         display: none;
-    } 
+    }  */
 }
 
 @media only screen and (max-width: 768px) {
